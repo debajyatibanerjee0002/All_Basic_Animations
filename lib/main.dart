@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'animated_container.dart';
 import 'animated_opacity.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,6 +11,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: FadeInDemo(),
+          // AnimatedContainerDemo()
         ),
       ),
     );
